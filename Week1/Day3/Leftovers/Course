@@ -1,0 +1,13 @@
+num_participants = int(input("Enter the number of participants: "))
+participants = list(range(1, num_participants + 1))
+num_teams = num_participants // 3
+leftover_count = num_participants % 3
+if leftover_count > 0:
+    unassigned = participants[-leftover_count:]
+else:    
+    unassigned = []
+print(f"Number of complete teams: {num_teams}")
+if unassigned:
+    print(f"Participants not assigned to a team: {unassigned}")
+    additional_needed = 3 - leftover_count
+    print(f"You need {additional_needed} more participant(s) to form one more complete team.")
