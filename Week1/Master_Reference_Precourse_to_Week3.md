@@ -1,5 +1,7 @@
-# Master Reference: Precourse → Week 2 Day 1
+# Master Reference: Precourse → Week 3 Day 1
 Developers Institute – Data Analytics Bootcamp (Mattia Coletto)
+
+*Note: Week 2 was skipped (away from the bootcamp Aug 10–17). This document jumps from Week 1 straight to Week 3, which is where OOP content actually begins.*
 
 ---
 
@@ -38,10 +40,12 @@ Running index of everything covered so far — concepts, tools, and where the wo
 
 ---
 
-## WEEK 2
+## WEEK 2 — Skipped (away Aug 10–17)
+
+## WEEK 3
 
 ### Day 1 — Object-Oriented Programming (OOP) intro
-**Folder:** `Week2/Day1/Untitled-2.py` (needs proper renaming/organizing into `ExercisesXP` structure)
+**Folder:** `Week2/Day1/Untitled-2.py` (currently misfiled under Week2 — needs moving to `Week3/Day1` and organizing into `ExercisesXP` structure)
 
 **New concepts introduced:**
 - `class` — defining a custom blueprint/type
@@ -77,6 +81,10 @@ Running index of everything covered so far — concepts, tools, and where the wo
 ## Housekeeping notes
 - `Week1/OOP_Practice/aaaa` — stray empty leftover file, flagged for cleanup, not yet removed
 - Reference doc itself is committed to the repo as `Week1/Master_Reference_Precourse_to_Week1_2.md` — keep versioning it there so it survives across chat sessions
+
+---
+
+- File/folder currently named `Week2/Day1/...` should be moved to `Week3/Day1/...` to match the actual week — see repo steps below.
 
 ---
 
