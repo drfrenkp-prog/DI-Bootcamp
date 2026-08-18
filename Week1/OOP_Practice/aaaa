@@ -1,0 +1,13 @@
+import random
+
+name = input("Enter your dog's name: ")
+print(f"Your dog's name is {name}.")
+
+actions = ["sleeping", "eating", "barking"]
+
+while True:
+    action = random.choice(actions)
+    print(f"{name} is {action}.")
+    again = input("Do you want to continue? (yes/no): ").lower()
+    if again == "no":
+        break
